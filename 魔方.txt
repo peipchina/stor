@@ -1,0 +1,4 @@
+R` U` F` U F R 找十字
+L U L` U L U2 L` 找顶
+R U2 R` U` R U2 L` U R` U` L 找角 
+F2 U L R` F2 L` R U F2 找中间
