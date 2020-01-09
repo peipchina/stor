@@ -1,0 +1,13 @@
+解决方案git无法上传
+打开cmd，输入命令：rundll32.exe keymgr.dll,KRShowKeyMgr，出现系统存储的用户名和密码窗口；
+将 github 相关的条目删除；
+重新执行命令：$ git push -u origin master，提示输入账户名及密码后，出现如下提示，提交成功。
+git remote add 出错
+只要两步：
+1、先删除
+$ git remote rm origin
+2、再次执行添加就可以了。　
+git 上传到github
+git commit -m "first commit"
+git remote add origin https://github.com/peipchina/stor.git
+git push -u origin master
