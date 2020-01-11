@@ -1,0 +1,1 @@
+vue init webpack name   创建vue项目，需要安装安装vue-cli
