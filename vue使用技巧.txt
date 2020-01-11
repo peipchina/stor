@@ -1,1 +1,3 @@
 vue init webpack name   创建vue项目，需要安装安装vue-cli
+cnpm install vue-cli 安装脚手架
+vue run dev 启动项目
