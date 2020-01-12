@@ -1,4 +1,4 @@
-解决方案git无法上传
+﻿解决方案git无法上传
 打开cmd，输入命令：rundll32.exe keymgr.dll,KRShowKeyMgr，出现系统存储的用户名和密码窗口；
 将 github 相关的条目删除；
 重新执行命令：$ git push -u origin master，提示输入账户名及密码后，出现如下提示，提交成功。
@@ -14,6 +14,8 @@ git push -u origin master
 
 下载github到本地
 git clone url
+淘宝的cnpm命令管理工具可以代替默认的npm管理工具：
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org；
 
 1. git init //初始化仓库
 
