@@ -1,3 +1,7 @@
 vue init webpack name   创建vue项目，需要安装安装vue-cli
 cnpm install vue-cli 安装脚手架
 vue run dev 启动项目
+
+vue ui 启动vue界面创建项目
+vue ui 不能启动，一般由于vue 版本和vue-vue-template-compiler不一致导致，删除(C:\Users\Administrator\node_modules\vue\dist\vue.runtime.common.js)这个文件
+安装插件 elementui,及 依赖 axios
